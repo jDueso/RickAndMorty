@@ -73,7 +73,7 @@ final class RMEpisodeDetailViewViewModel {
             }))
         ]
     }
-
+    
     /// Fetch backing episode model
     public func fetchEpisodeData() {
         guard let url = endpointUrl,

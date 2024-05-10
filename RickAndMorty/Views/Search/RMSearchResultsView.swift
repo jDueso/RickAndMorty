@@ -46,6 +46,7 @@ final class RMSearchResultsView: UIView {
         collectionView.register(RMCharacterEpisodeCollectionViewCell.self,
                                 forCellWithReuseIdentifier: RMCharacterEpisodeCollectionViewCell.cellIdentifer)
         // Footer for loading
+        // Posible error 
         collectionView.register(RMFooterLoadingCollectionReusableView.self,
                                 forSupplementaryViewOfKind: UICollectionView.elementKindSectionFooter,
                                 withReuseIdentifier: RMFooterLoadingCollectionReusableView.identifier)

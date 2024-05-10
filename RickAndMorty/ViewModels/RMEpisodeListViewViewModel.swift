@@ -22,6 +22,7 @@ final class RMEpisodeListViewViewModel: NSObject {
     private var isLoadingMoreCharacters = false
 
     private let borderColors: [UIColor] = [
+        
         .systemGreen,
         .systemBlue,
         .systemOrange,
@@ -72,7 +73,7 @@ final class RMEpisodeListViewViewModel: NSObject {
         }
     }
 
-    /// Paginate if additional episodes are needed
+    /// Paginate if additional episodes needed
     public func fetchAdditionalEpisodes(url: URL) {
         guard !isLoadingMoreCharacters else {
             return
